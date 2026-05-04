@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # IT3040 Assignment 1 – Playwright Test Automation
 ## Functional & Usability Testing of pixelssuite.com
 
@@ -109,3 +110,6 @@ After running the test, open `execution_results.csv` to see:
 - The test runs in **headless mode** by default (no visible browser window)
 - To see the browser: `npx playwright test --headed`
 - Screenshots are saved in `test-results/` folder
+=======
+# ITPM-Assignment
+>>>>>>> 7c6a4515f9b82c4937c66ad545b17bea9c495dc9
