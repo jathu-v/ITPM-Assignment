@@ -1,0 +1,13 @@
+{
+  "name": "pixelssuite-test-automation",
+  "version": "1.0.0",
+  "description": "Playwright automation tests for pixelssuite.com - IT3040 Assignment 1",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0"
+  }
+}

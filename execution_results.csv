@@ -1,0 +1,4 @@
+TC ID,Application Feature Tested,Input,Expected Output,Actual Output,Status,Assumption for Expected Output
+"Pos_0001","Image Resizing","Upload a valid PNG image (test_image.png, 100x100 pixels)","The uploaded image should be shown in the Preview section","No preview was detected after uploading the PNG file","Fail","NA"
+"Pos_0001","Image Resizing","Upload a valid PNG image (test_image.png, 100x100 pixels)","The uploaded image should be shown in the Preview section","No preview was detected after uploading the PNG file","Fail","NA"
+"Pos_0001","Image Resizing","Upload a valid PNG image (test_image.png, 100x100 pixels)","The uploaded image should be shown in the Preview section","Preview image is visible on the page after PNG upload","Pass","NA"

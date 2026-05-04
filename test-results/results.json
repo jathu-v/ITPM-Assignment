@@ -1,0 +1,177 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\Jathu\\OneDrive\\Desktop\\itmpa\\files (1)\\playwright.config.js",
+    "rootDir": "C:/Users/Jathu/OneDrive/Desktop/itmpa/files (1)/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Jathu/OneDrive/Desktop/itmpa/files (1)/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/Jathu/OneDrive/Desktop/itmpa/files (1)/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report"
+        }
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.59.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "image_resizing.spec.js",
+      "file": "image_resizing.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Image Resizing - Preview Functionality",
+          "file": "image_resizing.spec.js",
+          "line": 41,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Pos_0001 - Upload valid PNG and verify preview is displayed",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8931,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Step 1: Opening local test image resizer (http://localhost:3000)...\n"
+                        },
+                        {
+                          "text": "HTTP Response Status: 200\n"
+                        },
+                        {
+                          "text": "Body content length: 1553 chars\n"
+                        },
+                        {
+                          "text": "Iframes found: 0\n"
+                        },
+                        {
+                          "text": "Has image-related text: true\n"
+                        },
+                        {
+                          "text": "✓ Page loaded successfully\n"
+                        },
+                        {
+                          "text": "Step 2: Looking for file upload input...\n"
+                        },
+                        {
+                          "text": "✓ Test image found: C:\\Users\\Jathu\\OneDrive\\Desktop\\itmpa\\files (1)\\test_image.png\n"
+                        },
+                        {
+                          "text": "✓ File input element found\n"
+                        },
+                        {
+                          "text": "Step 3: Uploading PNG file...\n"
+                        },
+                        {
+                          "text": "✓ Upload button clicked\n"
+                        },
+                        {
+                          "text": "✓ File uploaded\n"
+                        },
+                        {
+                          "text": "Step 4: Checking if preview image is displayed...\n"
+                        },
+                        {
+                          "text": "✓ Preview image is visible!\n"
+                        },
+                        {
+                          "text": "\n✓ Result written to execution_results.csv\n"
+                        },
+                        {
+                          "text": "  Status: Pass\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-04T12:12:38.613Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9a66170a320703ac1abf-10e4a920ac284b1fc79e",
+              "file": "image_resizing.spec.js",
+              "line": 43,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-05-04T12:12:37.643Z",
+    "duration": 10234.213,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
